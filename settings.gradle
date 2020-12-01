@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "FHICT_Companion_App"
