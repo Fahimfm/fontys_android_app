@@ -84,9 +84,9 @@ public class TokenFragment extends Fragment {
             }
         });
 
-        String CLIENT_ID = "i874073-no-production";
-        String REDIRECT_URI="https://tas.fhict.nl/oob.html";
-        String OAUTH_URL ="https://identity.fhict.nl/connect/authorize";
+        String CLIENT_ID = "XXXX";
+        String REDIRECT_URI="XXXX";
+        String OAUTH_URL ="XXXXX";
         String OAUTH_SCOPE="fhict fhict_personal";
         web.loadUrl(OAUTH_URL+"?redirect_uri="+REDIRECT_URI+"&response_type=token&client_id="+CLIENT_ID+"&scope="+OAUTH_SCOPE);
 
